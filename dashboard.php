@@ -5,10 +5,6 @@
 </form>
 
 <?php
-    include "enkripsi.php"
-?>
-
-<?php
 session_start();
 
 if (isset($_POST['logout'])) {
